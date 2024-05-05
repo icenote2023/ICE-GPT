@@ -231,7 +231,7 @@ export function SideBar(props: { className?: string }) {
                 chatStore.newSession();
                 navigate(Path.Chat);
               } else {
-                navigate(Path.NewChat);
+                navigate(Path.Chat);
               }
             }}
             shadow
